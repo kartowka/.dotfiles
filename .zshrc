@@ -1,7 +1,6 @@
 #[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session;}
 
 # Flex on ubuntu users
-neofetch
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
 [[ -f ~/.config/zsh/starship.zsh ]] && source ~/.config/zsh/starship.zsh
@@ -14,3 +13,7 @@ eval "$(starship init zsh)"
 #eval "$(direnv hook zsh)"# ~/.zshrc
 
 export PATH="/usr/local/sbin:$PATH"
+# run neofetch if present on machine
+if [ -x "$(command -v neofetch)" ]; then
+    neofetch
+fi
