@@ -13,7 +13,7 @@ alias code="open -a 'Visual Studio Code'"
 #brew
 alias bd="brew doctor"
 alias bc="brew cleanup"
-alias bubu="brew update && brew upgrade"
+alias bubu="brew update && brew upgrade --greedy"
 
 # ALIAS COMMANDS
 alias ls="exa --icons -a --group-directories-first"
