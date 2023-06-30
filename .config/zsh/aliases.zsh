@@ -5,6 +5,7 @@ alias tf="terraform"
 alias a="ansible"
 alias ap="ansible-playbook"
 alias python="python3"
+alias pip="pip3"
 #tmux 
 alias ta="tmux attach"
 # mac OS shortcuts
