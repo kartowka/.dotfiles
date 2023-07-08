@@ -6,6 +6,7 @@
 [[ -f ~/.config/zsh/starship.zsh ]] && source ~/.config/zsh/starship.zsh
 [[ -f ~/.config/zsh/plugins.zsh ]] && source ~/.config/zsh/plugins.zsh
 [[ -f ~/.config/zsh/goto.zsh ]] && source ~/.config/zsh/goto.zsh
+[[ -f ~/.config/zsh/nvm.zsh ]] && source ~/.config/zsh/nvm.zsh
 # Load Starship
 eval "$(starship init zsh)"
 

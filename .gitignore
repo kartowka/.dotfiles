@@ -4,4 +4,4 @@
 # But not these files...
 !.gitignore
 !.zshrc
-!.config/*
+!~/.config/tmux/tmux.conf
